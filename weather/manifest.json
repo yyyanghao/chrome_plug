@@ -1,0 +1,21 @@
+{
+	"name": "chrome",
+	"version" :"1.0",
+	"description":"test",
+	"manifest_version":2,
+//	"icon":
+	"browser_action":{
+		"default_icon":{
+			"1":"img/sun-glasses.png"
+		},
+		"default_title":"我的扩展",
+		"default_popup":"popup.html"
+		
+	},
+	"permissions":[
+		"http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&city="
+	],
+	"web_accessible_resources": [
+    "http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&city=*"
+  ]
+}

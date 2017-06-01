@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 200px;
+    height: 100px;
+}
+
+div {
+    line-height: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div>
+	<ul class="ul">
+		<li>1321</li>
+		<li></li>	
+	</ul>
+</div>
+<script>
+var test = document.getElementsByClassName("ul")
+console.log(test[0].children[0]);
+var btn = test[0].children[0];
+
+var count =0;
+var int = setInterval(function(){
+	btn.onclick;
+	count++;
+	console.log(count);
+if(count ==100){
+	clearInterval(int);
+}
+},100)
+
+
+ 
+</script>
+</body>
+</html>

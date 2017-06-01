@@ -1,0 +1,11 @@
+{
+	"name": "unclick",
+	"version" :"1.0",
+	"description":"test",
+	"manifest_version":2,
+	"content_scripts":[
+	{
+		"matches":["*://www.baidu.com/"],
+		"js":["js/jquery-2.1.0.js","js/tab.js"]
+	}]
+}

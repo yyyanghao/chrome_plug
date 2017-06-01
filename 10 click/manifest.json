@@ -1,0 +1,9 @@
+{
+	"manifest_version":2,
+	"name":"无限点击",
+	"version":"1.0",
+	"content_scripts":[{
+			"matches": ["https://sale.jd.com/*"],
+            "js": ["js/test.js"]
+	}]
+}
